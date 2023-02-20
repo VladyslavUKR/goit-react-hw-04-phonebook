@@ -11,6 +11,7 @@ const Filter = ({ inputValue }) => {
 };
 
 export default Filter;
+
 Filter.propTypes = {
   inputValue: PropTypes.func.isRequired,
 };
