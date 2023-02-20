@@ -1,0 +1,81 @@
+.wrapper {
+  width: 800px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+
+  background-color: rgb(47, 47, 199);
+}
+
+.page_tittle {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: yellow;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.new_contact {
+  margin-bottom: 40px;
+  height: fit-content;
+
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: rgb(49, 150, 168);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+label {
+  margin-right: 10px;
+  color: white;
+}
+
+input {
+  margin-left: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+p {
+  color: white;
+}
+.list_contacts {
+  padding: 0px 40px;
+
+  border-radius: 5px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: rgb(49, 150, 168);
+
+  width: 300px;
+}
+
+button {
+  transition: transform 250ms linear;
+}
+button:hover {
+  transform: scale(1.2);
+}
+
+.tittle_list {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
